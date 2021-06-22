@@ -1,5 +1,5 @@
 # NLW-Together
  
-Aqui séra atualizado todo o conteudo da NLW-Together da trila DISCOVER 
+Aqui séra atualizado todo o conteúdo da NLW-Together, da trilha DISCOVER. 
 
 🖖 🏴
