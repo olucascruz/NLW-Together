@@ -20,16 +20,20 @@ html{
 
     font-size: 62.5%;
 }
+
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
+
 body, button, input, textarea{
     /*Intervalo de tamanhos*/
      font-size: clamp(14px, 1.6rem, 2vw);
      font-family: 'Open Sans', sans-serif;
      /*font-family: 'Poppins', sans-serif;*/
 }
+
 .content{
     width: 100%;
     margin: 0 auto;
