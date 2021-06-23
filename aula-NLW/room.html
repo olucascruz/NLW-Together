@@ -13,6 +13,7 @@
         <!--CSS-->
         <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="styles/room.css">
+        <link rel="stylesheet" href="styles/modal.css">
 
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -36,7 +37,7 @@
             </header>
             <main>
                 <section id="question-form">
-                    <h2>Faça sua perguntar</h2>
+                    <h2>Faça sua pergunta</h2>
                     <form action="">
                         <label for-id="question" class="sr-only">O que você quer perguntar?</label>
                         <textarea id="" placeholder="O que você quer perguntar?"></textarea>
@@ -59,7 +60,7 @@
                         <div class="questions-wrapper">
                             <div class="question-content">
                                 <div class="user">
-                                    <img src="imgNlW1/avatar.svg" alt="Avatar">
+                                    <img src="imgNlW1/user.svg" alt="Avatar">
                                 </div>
                                 <div class="question">
                                     <p>Qual a diferença entre const, var e let no JavaScript</p>
@@ -80,7 +81,7 @@
                         <div class="questions-wrapper">
                             <div class="question-content">
                                 <div class="user">
-                                    <img src="imgNlW1/avatar.svg" alt="Avatar">
+                                    <img src="imgNlW1/user.svg" alt="Avatar">
                                 </div>
                                 <div class="question">
                                     <p>O que é JavaScript</p>
@@ -101,10 +102,10 @@
                         <div class="questions-wrapper">
                             <div class="question-content">
                                 <div class="user">
-                                    <img src="imgNlW1/avatar.svg" alt="Avatar">
+                                    <img src="imgNlW1/user.svg" alt="Avatar">
                                 </div>
                                 <div class="question">
-                                    <p>O que é TypeScript</p>
+                                    <p>Você já sabe quais as bases você precisa melhorar para alcançar seu proximo nível com maestria? Definiu seu foco e objetivo para seguir em frente? Estou curiosa e embasbacada com sua perseverança por ter alcançado a terceira aula e sei que vai conntinuar até o fim, então responde aí pra gente</p>
                                 </div>
                             </div>
                             <div class="actions">
@@ -118,11 +119,46 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="questions-wrapper read">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="imgNlW1/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é TypeScript</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="delete">
+                                    <img src="imgNlW1/trash.svg" alt="Excluir">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
- 
             </main>
-            </div>
         </div>
+        
+        
+                <div class="modal-wrapper">
+                    <div class="modal">
+                        <h2>Excluir Pergunta</h2>
+                        <p>Tem certeza que dejesa excluir esta pergunta?</p>
+
+                        <form action="">
+                            <label class="sr-only" for-id="password">digite sua senha</label>
+                            <input type="password" id="password" name="password" placeholder="Digite sua senha" />
+
+                            <div class="buttons">
+                                <div class="button gray">Cancelar</div>
+                                <button class="red">Sim, excluir</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
     </body>
 </html>
