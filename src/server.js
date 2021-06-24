@@ -1,5 +1,10 @@
 const express = require('express')
+const route = require('./route')
 
 const server = express()
 
-server.listen(3000, () => console.log("Olá mundo"))
+server.set('view.engine', 'ejs ')
+
+server.use(route)
+
+server.listen(3000, () => console.log("RODANDO"))
