@@ -1,0 +1,24 @@
+{
+  "name": "NLW-Together",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAR-Lucas/NLW-Together.git"
+  },
+  "keywords": [],
+  "author": "Lucas Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VAR-Lucas/NLW-Together/issues"
+  },
+  "homepage": "https://github.com/VAR-Lucas/NLW-Together#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
