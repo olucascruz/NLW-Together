@@ -117,7 +117,7 @@ justify-content: space-between;
     word-break: break-word;
     display: flex;
     align-items: center;
-    min-height: 5;
+    min-height: 5.5rem;
 }
 
 .questions-wrapper .actions{
